@@ -13,8 +13,8 @@ public class Elite extends Product{
         super(name, price);
         this.wight = wight;
         this.volume = volume;
-    }
-    
+    } 
+
 
     public double getVolume() {
         return volume;
