@@ -1,6 +1,6 @@
-package Seminar2.Util;
+package seminar2.util;
 
-import Seminar2.data.User;
+import seminar2.data.User;
 
 public class ReaderFromTXT {
     public static User read(User user) {

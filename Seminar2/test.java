@@ -1,4 +1,4 @@
-package Seminar2;
+package seminar2;
 
 public class test {
     

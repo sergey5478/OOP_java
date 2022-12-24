@@ -1,8 +1,8 @@
-package Seminar2.view;
+package seminar2.view;
 
 import java.util.List;
 
-import Seminar2.data.User;
+import seminar2.data.User;
 
 public class StudentView extends UserView {
 

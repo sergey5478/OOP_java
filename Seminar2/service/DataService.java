@@ -1,6 +1,6 @@
-package Seminar2.service;
+package seminar2.service;
 
-import Seminar2.data.User;
+import seminar2.data.User;
 
 public interface DataService {
     

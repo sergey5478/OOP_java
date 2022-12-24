@@ -1,6 +1,6 @@
-package Seminar2.data;
+package seminar2.data;
 
-public class User {
+public abstract class User {
 
     private String fio;
     private Integer age;

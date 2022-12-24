@@ -1,10 +1,10 @@
-package Seminar2.controller;
+package seminar2.controller;
 
-import Seminar2.data.Student;
-import Seminar2.data.StudentGroup;
-import Seminar2.service.DataService;
-import Seminar2.service.StudentGroupServiceImpl;
-import Seminar2.service.StudentServiceImpl;
+import seminar2.data.Student;
+import seminar2.data.StudentGroup;
+import seminar2.service.DataService;
+import seminar2.service.StudentGroupServiceImpl;
+import seminar2.service.StudentServiceImpl;
 
 public class Controller {
 

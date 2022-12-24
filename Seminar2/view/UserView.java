@@ -1,6 +1,6 @@
-package Seminar2.view;
+package seminar2.view;
 
-import Seminar2.data.User;
+import seminar2.data.User;
 import java.util.List;
 
 public abstract class UserView {

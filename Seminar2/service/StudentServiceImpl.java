@@ -1,8 +1,8 @@
-package Seminar2.service;
+package seminar2.service;
 
-import Seminar2.Util.ReaderFromTXT;
-import Seminar2.Util.WriterToTxt;
-import Seminar2.data.User;
+import seminar2.util.ReaderFromTXT;
+import seminar2.util.WriterToTxt;
+import seminar2.data.User;
 
 public class StudentServiceImpl implements DataService{
 

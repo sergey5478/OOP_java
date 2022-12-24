@@ -1,6 +1,6 @@
-package Seminar2.service;
+package seminar2.service;
 
-import Seminar2.data.StudentGroup;
+import seminar2.data.StudentGroup;
 
 public interface StudentGroupInterf {
 
