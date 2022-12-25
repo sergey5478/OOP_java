@@ -5,10 +5,9 @@ import java.util.List;
 
 import Seminar3.data.iterator.StudentStreamIterator;
 
-public class GroupStream implements Iterable<StudentGroup>{
+public class GroupStream implements Iterable<StudentGroup> {
     private List<StudentGroup> studentGroup;
 
-    
     public GroupStream(List<StudentGroup> studentGroup) {
         this.studentGroup = studentGroup;
     }
@@ -23,8 +22,8 @@ public class GroupStream implements Iterable<StudentGroup>{
 
     @Override
     public Iterator<StudentGroup> iterator() {
-        // return null;
+
         return new StudentStreamIterator(this);
     }
-    
+
 }

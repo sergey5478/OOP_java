@@ -14,17 +14,17 @@ public class StudentStreamIterator implements Iterator<StudentGroup> {
     }
 
     @Override
-    public boolean hasNext() {        
+    public boolean hasNext() {
         return false;
     }
 
     @Override
-    public StudentGroup next() {        
+    public StudentGroup next() {
         return null;
     }
 
     @Override
-    public void remove() {        
+    public void remove() {
         Iterator.super.remove();
     }
 

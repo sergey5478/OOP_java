@@ -1,18 +1,30 @@
 package Seminar3.service;
 
 import Seminar3.data.User;
-import Seminar3.util.ReaderToTxt;
-import Seminar3.util.WriteToTxt;
 
-public class StudentServiceImpl implements DataService{
+public class StudentServiceImpl implements DataService {
 
     @Override
     public void create(User user) {
-        WriteToTxt.write(user);        
+        // TODO Auto-generated method stub
+
     }
 
     @Override
     public User read(User user) {
-       return ReaderToTxt.read(user);        
-    }    
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public Object findById(Object id) {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public Object save(Object entity) {
+        // TODO Auto-generated method stub
+        return null;
+    }
 }

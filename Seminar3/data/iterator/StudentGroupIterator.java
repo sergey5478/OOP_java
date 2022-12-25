@@ -6,7 +6,7 @@ import java.util.List;
 import Seminar3.data.Student;
 import Seminar3.data.StudentGroup;
 
-public class StudentGroupIterator implements Iterator<Student>{
+public class StudentGroupIterator implements Iterator<Student> {
     private StudentGroup studentGroup;
     private List<Student> students;
     private int cursor;
@@ -28,7 +28,7 @@ public class StudentGroupIterator implements Iterator<Student>{
 
     @Override
     public void remove() {
-        this.students.remove(cursor);       
+        this.students.remove(cursor);
     }
 
     public StudentGroup getStudentGroup() {

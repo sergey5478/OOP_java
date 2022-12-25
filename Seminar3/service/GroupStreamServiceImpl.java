@@ -1,12 +1,12 @@
-package Seminar3.data;
+package Seminar3.service;
 
 import java.util.Collections;
 import java.util.List;
 
+import Seminar3.data.GroupStream;
 import Seminar3.data.comparator.GroupStreamComparator;
-import Seminar3.service.StudentStreamInterf;
 
-public class GroupGroupStreamServiceImpl implements StudentStreamInterf{
+public class GroupStreamServiceImpl implements StudentStreamInterf{
 
     @Override
     public void groupStreamSort(List<GroupStream> groupStreams) {
