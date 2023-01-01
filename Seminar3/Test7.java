@@ -1,5 +1,5 @@
 package Seminar3;
 
-public class test {
+public class Test7 {
     
 }
