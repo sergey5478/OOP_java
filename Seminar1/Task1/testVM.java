@@ -1,6 +1,6 @@
-package Seminar1.Task1;
+package Seminar1.task1;
 
-public class testVM extends VendingMachine {
+public class TestVM extends VendingMachine {
     @Override
     public void restore() {
         System.out.println("Напиток тут");

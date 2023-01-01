@@ -9,7 +9,7 @@ package Seminar1;
  * 4. Все вышеуказанное создать согласно принципам ООП пройдённым на семинаре
 
  */
-public class test {
+public class Test5 {
     public static void main(String[] args) {
         
     }

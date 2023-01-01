@@ -1,4 +1,4 @@
-package Seminar1.Task1;
+package Seminar1.task1;
 
 public class Product {
     private String name;
