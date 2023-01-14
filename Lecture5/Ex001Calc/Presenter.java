@@ -9,7 +9,7 @@ public class Presenter {
         view = v;
     }
 
-    public void buttonClick(){
+    public void buttonClick() {
         int a = view.getValue("a: ");
         int b = view.getValue("b: ");
         model.setX(a);
