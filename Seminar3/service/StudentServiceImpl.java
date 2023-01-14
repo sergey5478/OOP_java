@@ -1,8 +1,11 @@
 package Seminar3.service;
 
+
 import Seminar3.data.User;
 
 public class StudentServiceImpl implements DataService {
+
+    
 
     @Override
     public void create(User user) {

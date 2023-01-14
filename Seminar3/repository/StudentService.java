@@ -9,6 +9,18 @@ public class StudentService {
         this.studentRepository = studentRepository;
     }
 
+    public void deletStudentNumberAge(Student student) {
+    }
+
+    public void deletStudentFirstName(Student student) {
+    }
+
+    public void deletStudent(Student student) {
+    }
+
+    public void createStudent(Student student) {
+    }
+
     public void saveStudent(Student entity) {
         studentRepository.save(null);
     }
