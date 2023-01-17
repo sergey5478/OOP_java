@@ -19,7 +19,7 @@ public class Student extends User implements Comparable<Student> {
         super(fio, age, passport);
         this.namberGroup = namberGroup;
     }
-
+    
     public int getNamberGroup() {
         return namberGroup;
     }

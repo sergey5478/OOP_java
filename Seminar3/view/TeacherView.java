@@ -8,7 +8,7 @@ public class TeacherView extends UsreView {
 
     @Override
     protected User findTheBest(List<User> userList) {
-        // TODO Auto-generated method stub
+        
         return null;
     }
     

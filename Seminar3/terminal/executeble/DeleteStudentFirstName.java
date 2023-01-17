@@ -3,7 +3,7 @@ package Seminar3.terminal.executeble;
 import Seminar3.data.Student;
 import Seminar3.repository.StudentService;
 
-public class DeleteStudentFirstName implements CommanStudentDeleteFirstName {
+public class DeleteStudentFirstName implements CommandExecutable {
 
     private StudentService studentService;
 
@@ -15,8 +15,7 @@ public class DeleteStudentFirstName implements CommanStudentDeleteFirstName {
     }
 
     @Override
-    public void deletStudentFirstName() {
-        studentService.deletStudentFirstName(student);
+    public void execute() {
+        studentService.deletStudentFirstName(student.getFio());
     }
-
 }

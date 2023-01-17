@@ -9,10 +9,9 @@ public class StudentService {
         this.studentRepository = studentRepository;
     }
 
-    public void deletStudentNumberAge(Student student) {
+    public void deletStudentNumberAge(int groupNumber, int age) {
     }
-
-    public void deletStudentFirstName(Student student) {
+    public void deletStudentFirstName(String fio) {
     }
 
     public void deletStudent(Student student) {
