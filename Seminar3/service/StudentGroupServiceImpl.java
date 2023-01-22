@@ -47,8 +47,9 @@ public class StudentGroupServiceImpl implements StudentGroupInterf {
     }
 
     @Override
-    public void sorted(StudentGroup studentGroup) {
-        Collections.sort(studentGroup.getStudentList());
+    public void sort(List<Student> studentList) {
+        Collections.sort(null, null);
+
     }
 
 }

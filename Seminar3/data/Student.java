@@ -1,6 +1,6 @@
 package Seminar3.data;
 
-public class Student extends User implements Comparable<Student> {
+public class Student extends User {
     private int namberGroup;
 
     public Student(String fio) {
@@ -19,18 +19,13 @@ public class Student extends User implements Comparable<Student> {
         super(fio, age, passport);
         this.namberGroup = namberGroup;
     }
-    
+
     public int getNamberGroup() {
         return namberGroup;
     }
 
     public void setNamberGroup(int namberGroup) {
         this.namberGroup = namberGroup;
-    }
-
-    @Override
-    public int compareTo(Student o) {
-        return Integer.compare(this.getAge(), o.getAge());
     }
 
 }

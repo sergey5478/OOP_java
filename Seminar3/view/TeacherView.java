@@ -8,8 +8,8 @@ public class TeacherView extends UsreView {
 
     @Override
     protected User findTheBest(List<User> userList) {
-        
+
         return null;
     }
-    
+
 }

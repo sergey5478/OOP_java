@@ -1,19 +1,21 @@
 package Seminar3.terminal;
 
 import java.util.Scanner;
+
+import Seminar3.repository.StudentService;
 import Seminar3.terminal.executeble.CommandExecutable;
 
 public class TerminalReader {
 
     private static TerminalReader terminalReader;
     private ComandParser comandParser;
+    private StudentService studentService;
 
     public static TerminalReader getInstans(ComandParser comandParser) {
         if (terminalReader == null) {
             terminalReader = new TerminalReader(comandParser);
         }
         return terminalReader;
-
     }
 
     public TerminalReader(ComandParser comandParser) {
@@ -24,9 +26,11 @@ public class TerminalReader {
         Scanner in = new Scanner(System.in);
         while (true) {
             String comand = in.nextLine();
-            String[] cool = comandParser.parseCommand(comand);
-            CommandExecutableFactor commandExecutableFactor = new CommandExecutableFactor();
-            CommandExecutable commandExecutable = commandExecutableFactor.create(cool);
+
+            // Command cool = comandParser.parseCommand(comand);
+            CommandExecutableFactorImpl commandExecutableFactor = new LogingCommandExecutableFactory();
+            CommandExecutable commandExecutable = commandExecutableFactor.create(comandParser.parseCommand(comand));
+
             commandExecutable.execute();
             in.close();
         }

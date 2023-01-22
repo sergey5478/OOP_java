@@ -1,10 +1,17 @@
 package Seminar3.repository2;
+
 import Seminar3.data.Teacher;
 import Seminar3.repository.UserRepository;
-public class TeacherRepository implements UserRepository<Teacher, Integer>{
+
+public class TeacherRepository implements UserRepository<Teacher, Integer> {
 
     @Override
-    public Teacher findByFio(String fio) {
+    public Teacher delete(Teacher entity) {
+        return null;
+    }
+
+    @Override
+    public Teacher findByFio(Teacher fio) {
         return null;
     }
 
@@ -17,5 +24,5 @@ public class TeacherRepository implements UserRepository<Teacher, Integer>{
     public Teacher save(Teacher entity) {
         return null;
     }
-    
+
 }

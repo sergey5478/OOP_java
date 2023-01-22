@@ -5,29 +5,23 @@ import Seminar3.data.User;
 
 public class StudentServiceImpl implements DataService {
 
-    
-
     @Override
-    public void create(User user) {
-        // TODO Auto-generated method stub
-
-    }
-
-    @Override
-    public User read(User user) {
-        // TODO Auto-generated method stub
+    public User create(User user) {        
         return null;
     }
 
     @Override
-    public Object findById(Object id) {
-        // TODO Auto-generated method stub
+    public User read(User user) {        
         return null;
     }
 
     @Override
-    public Object save(Object entity) {
-        // TODO Auto-generated method stub
+    public Object findById(Object id) {        
+        return null;
+    }
+
+    @Override
+    public Object save(Object entity) {        
         return null;
     }
 }

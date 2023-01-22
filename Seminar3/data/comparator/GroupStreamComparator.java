@@ -8,9 +8,10 @@ public class GroupStreamComparator implements Comparator<GroupStream> {
 
     @Override
     public int compare(GroupStream studentGroup1, GroupStream studentGroup2) {
-        int sizeStudentGroup1 = studentGroup1.getStudentGroup().size();
-        int sizeStudentGroup2 = studentGroup2.getStudentGroup().size();
-        return Integer.compare(sizeStudentGroup1, sizeStudentGroup2);
+        // int sizeStudentGroup1 = studentGroup1.getStudentGroup().size();
+        // int sizeStudentGroup2 = studentGroup2.getStudentGroup().size();
+        return Integer.compare(studentGroup1.getStudentGroup().size(),
+        studentGroup2.getStudentGroup().size());
     }
 
 }

@@ -1,11 +1,8 @@
 package Seminar3.data;
 
-import java.util.Iterator;
 import java.util.List;
 
-import Seminar3.data.iterator.StudentGroupIterator;
-
-public class StudentGroup implements Iterable<Student> {
+public class StudentGroup {
     private Teacher teacher;
     private List<Student> studentList;
     private int groupNumber;
@@ -45,9 +42,5 @@ public class StudentGroup implements Iterable<Student> {
         this.groupNumber = groupNumber;
     }
 
-    @Override
-    public Iterator<Student> iterator() {
-        return new StudentGroupIterator(this);
-    }
-
+    
 }

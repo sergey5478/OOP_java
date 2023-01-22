@@ -11,6 +11,7 @@ public class StudentService {
 
     public void deletStudentNumberAge(int groupNumber, int age) {
     }
+
     public void deletStudentFirstName(String fio) {
     }
 
@@ -28,7 +29,7 @@ public class StudentService {
         return studentRepository.findById(id);
     }
 
-    public Student findStudentByFio(String fio) {
+    public Student findStudentByFio(Student fio) {
         return studentRepository.findByFio(fio);
     }
 

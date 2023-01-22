@@ -1,11 +1,23 @@
 package Seminar3.repository;
 
 import Seminar3.data.Student;
+import Seminar3.db.StudentTable;
 
 public class StudentRepository implements UserRepository<Student, Integer> {
 
+    private final StudentTable studentTable;
+
+    public StudentRepository(StudentTable studentTable) {
+        this.studentTable = studentTable;
+    }
+    
     @Override
-    public Student findByFio(String fio) {
+    public Student delete(Student entity) {
+        return null;
+    }
+
+    @Override
+    public Student findByFio(Student fio) {
         return null;
     }
 
@@ -17,6 +29,10 @@ public class StudentRepository implements UserRepository<Student, Integer> {
     @Override
     public Student save(Student entity) {
         return null;
+    }
+
+    public StudentTable getStudentTable() {
+        return studentTable;
     }
 
 }

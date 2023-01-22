@@ -34,7 +34,7 @@ public abstract class User {
         this.fio = fio;
     }
 
-    public int getAge() {
+    public Integer getAge() {
         return age;
     }
 
