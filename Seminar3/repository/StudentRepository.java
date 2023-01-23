@@ -7,8 +7,8 @@ public class StudentRepository implements UserRepository<Student, Integer> {
 
     private final StudentTable studentTable;
 
-    public StudentRepository(StudentTable studentTable) {
-        this.studentTable = studentTable;
+    public StudentRepository() {
+        this.studentTable = new StudentTable();
     }
     
     @Override

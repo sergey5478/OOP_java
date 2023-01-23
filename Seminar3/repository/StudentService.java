@@ -9,7 +9,8 @@ public class StudentService {
         this.studentRepository = studentRepository;
     }
 
-    public void deletStudentNumberAge(int groupNumber, int age) {
+    public boolean deletStudentNumberAge(int groupNumber, int age) {
+        return studentRepository.equals(studentRepository);
     }
 
     public void deletStudentFirstName(String fio) {
@@ -18,7 +19,8 @@ public class StudentService {
     public void deletStudent(Student student) {
     }
 
-    public void createStudent(Student student) {
+    public Student createStudent(Student student) {
+        return studentRepository.save(student);
     }
 
     public void saveStudent(Student entity) {

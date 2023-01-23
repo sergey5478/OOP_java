@@ -16,6 +16,7 @@ public class CreateStudentExecutable implements CommandExecutable {
     @Override
     public void execute() {
         studentService.createStudent(student);
+
     }
 
 }

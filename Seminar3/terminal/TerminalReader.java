@@ -28,7 +28,7 @@ public class TerminalReader {
             String comand = in.nextLine();
 
             // Command cool = comandParser.parseCommand(comand);
-            CommandExecutableFactorImpl commandExecutableFactor = new LogingCommandExecutableFactory();
+            CommandExecutableFactorImpl commandExecutableFactor = new LogingCommandExecutableFactory(studentService);
             CommandExecutable commandExecutable = commandExecutableFactor.create(comandParser.parseCommand(comand));
 
             commandExecutable.execute();

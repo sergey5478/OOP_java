@@ -7,7 +7,11 @@ import Seminar3.terminal.executeble.CreateStudentExecutable;
 import Seminar3.terminal.executeble.DeleteStudentExecutable;
 
 public class CommandExecutableFactorImpl implements CommandExecutableFactory {
-    private StudentService studentService;
+    protected final StudentService studentService;
+
+    public CommandExecutableFactorImpl(StudentService studentService) {
+        this.studentService = studentService;
+    }
 
     public CommandExecutable create(Command input) {
         if (input.isCreateCommand()) {
